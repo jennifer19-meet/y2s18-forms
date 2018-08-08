@@ -36,7 +36,7 @@ def query_all():
 	"""
 	students = session.query(Student).all()
 	return students
-
+print(query_all())
 def delete_student(name):
 	"""
 	Delete all students with a certain name

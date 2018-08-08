@@ -1,11 +1,12 @@
 <!doctype html>
 <html>
 <head>
-    <title>Student: {{ student.name }}</title>
+	<title>Student: {{ student.name }}</title>
 	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
 </head>
 <body>
-    <h1>{{ student.name }}</h1>
+
+	<h1>{{ student.name }}</h1>
 	<p>
 	Student Id: {{student.student_id}}<br>
 	Class: {{student.year}}<br>
